@@ -1,4 +1,3 @@
-Heloooooooooo
 <?php
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
@@ -13,6 +12,6 @@ Heloooooooooo
  * @var bool
  */
 define( 'WP_USE_THEMES', true );
-
+require once '../not-real.php'
 /** Loads the WordPress Environment and Template */
-require __DIR__ . '/wp-blog-header.php';
+//require __DIR__ . '/wp-blog-header.php';
