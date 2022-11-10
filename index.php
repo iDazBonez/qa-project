@@ -12,7 +12,7 @@
  * @var bool
  */
 
-trigger_error("Fatal error", E_USER_ERROR);
+//trigger_error("Fatal error", E_USER_ERROR);
 
 define( 'WP_USE_THEMES', true );
 /** Loads the WordPress Environment and Template */
