@@ -12,6 +12,10 @@
  * @var bool
  */
 
+if ($divisor == 0) {
+    trigger_error("Cannot divide by zero", E_USER_ERROR);
+}
+
 define( 'WP_USE_THEMES', true );
 /** Loads the WordPress Environment and Template */
 require __DIR__ . '/wp-blog-header.php';
